@@ -46,11 +46,3 @@ class IMF_Pull:
                 sleep(2)
                 
             return df
-
-
-            #for i in self.indicators:
-                #result[i] = self.fetch(i)
-                #result[i] = self.parse_response(self.fetch(i))
-            
-            #for j in sorted(result.values(),key=lambda x:len(x),reverse=True):
-                #df = pd.concat([df,pd.DataFrame.from_dict(j).set_index('Date')],axis=1)
